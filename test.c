@@ -1,6 +1,6 @@
 // GITHUB REPO  IS JUST A HELPFULL QUICK GUIDE FROM MULTIPLE CODE BLOCKS ON THE 'C' COURSE ON CODEACEDEMY.  THIS IS NO PROJECT JUST SOMETHING I CAN COME BACK TO IF I FORGET SOMETHING
 
-/*#include <stdio.h>
+#include <stdio.h>
 //INTRODUCTION
 int main() {
   
@@ -12,9 +12,9 @@ displayScore = (int)testScore;
   // No need to change below here
   printf("Great work, you got a %d%% on your test\n", displayScore);
 
-}  shows conversions of variable types */
+}  shows conversions of variable types 
 
-/* #include <stdio.h>
+ #include <stdio.h>
  //CASTING...way of converting charset values to numerical values
 int main() {
   
@@ -28,9 +28,9 @@ targetChar = sourceDouble;
   // No need to change below here
   printf("source int %d, source double, %.2f, target %c\n", sourceInt, sourceDouble, targetChar);
 
-} */
+} 
 // MATHEMTICAL OPERATIONS WITH C
-/* #include <stdio.h>
+ #include <stdio.h>
 
 int main() {
   
@@ -47,7 +47,7 @@ totalSalesValue = totalSalesValue / 2;
   printf("You sold %d books and your take home was $%.2f\n", booksSold, totalSalesValue);
 } */
 // MODULE %%%
-/* int endingDayOfWeek = 0;
+int endingDayOfWeek = 0;
   int daysThatPass = 7;
   int daysInWeek = 7;
 
@@ -55,7 +55,7 @@ totalSalesValue = totalSalesValue / 2;
 
   printf("You started on the 1st (0) day of the week, went %d days from this, so it is now the %d day of the week\n", daysThatPass, endingDayOfWeek); */
   // SIMPLE Increment and Decrement
-   /*  #include <stdio.h>
+     #include <stdio.h>
 
       int main() {
         int n = 13;
@@ -64,17 +64,17 @@ totalSalesValue = totalSalesValue / 2;
         n = n++;
         printf("m = %d\n", m);
         printf("n = %d\n", n);
-      } */
+      } 
       //ASSIGNMENT OPERATOR
      
-      /* 
+      
        int timesServerCrashed = 5;
         double losses = 500.95;
         losses *= timesServerCrashed;
         losses /= 2;
         printf("Total Losses: $%.2f\n", losses);
-        /*
-  /* comparisins  < > <> <= >= != ==
+        
+   comparisins  < > <> <= >= != ==
       #include <stdio.h>
 
 int main() {
@@ -88,9 +88,9 @@ int main() {
 
 }
       
-      */
+     
    // LOGICAL OPERATORS
-   /*
+   
     #include <stdio.h>
 
 int main() {
